@@ -21,15 +21,7 @@
                     <li class="links">Products</li>
                 </router-link>
 
-                <!-- contact -->
-                <router-link class="router-link" to='/contact'>
-                    <li class="links">Contact</li>
-                </router-link>
-
-                <!-- admin -->
-                <router-link class="router-link" to='/Admin'>
-                    <li class="links">Admin</li>
-                </router-link>
+               
             </ul>
         </nav>
     </header>
