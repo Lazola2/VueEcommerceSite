@@ -9,6 +9,7 @@
     components: {
       NavBar,
     },
+   
   }
 </script>
 

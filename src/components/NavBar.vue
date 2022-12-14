@@ -49,7 +49,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 0 2rem;
-        height: 11vh;
+        height: 8vh;
         color: orange;
     }
 

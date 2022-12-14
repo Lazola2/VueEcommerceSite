@@ -1,12 +1,25 @@
 <template>
     <section class="home-page-section">
-        <h1>This is the home page</h1>
+        <HomePage/>
     </section>
-</template>   
+</template> 
+
+<script>
+    import HomePage from '../components/HomePage.vue'
+    export default {
+        components: {
+            HomePage,
+        }
+    }
+</script>
+
 <style scoped>
     .home-page-section {
-        border: 3px solid green;
-        height: 89vh;
+        height: 92vh;
+        display: flex;
+        align-items: center;
+        padding-left: 15rem;
+        gap: 4rem;
     }
 
     h1 {
